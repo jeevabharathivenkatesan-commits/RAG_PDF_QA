@@ -3,7 +3,6 @@ from dotenv import load_dotenv # from .env file
 load_dotenv()
 
 from langchain_community.document_loaders import PyPDFLoader  #alternative for UnstructuredPDFLoader
-from langchain_community.document_loaders import  UnstructuredPDFLoader
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
 from langchain_groq import ChatGroq
