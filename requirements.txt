@@ -1,10 +1,11 @@
-python-dotenv
 streamlit
-sentence-transformers
+python-dotenv
 langchain==0.3.25
-langchain-core==0.3.86
 langchain-community==0.3.25
+langchain-core==0.3.86
 langchain-huggingface
 langchain-text-splitters
-langchain-chroma
 langchain-groq
+sentence-transformers
+faiss-cpu
+pypdf
